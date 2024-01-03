@@ -1,0 +1,44 @@
+* {
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.box {
+  max-width: 350px;
+  margin: 150px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(245, 233, 99, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+}
+form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.search-bar>input, .search-bar>label {
+  display:block;
+  padding: 4x;
+}
+.filter-table{
+  margin: 20px;
+}
+.product-table{
+  width: 300px;
+  text-align: left;
+  border-collapse:collapse; ;
+}
+.product-table th, .product-table td{
+  border: 1px solid #afd7ef;
+}
+.category-row{
+  text-align: center;
+}
+/* Class utility */
+.text-red{
+  color:#273dff ;
+}
+.text-green{
+  color:rgb(250, 45, 13);
+}
